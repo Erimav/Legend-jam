@@ -1,0 +1,74 @@
+{
+    "name": "SongInputs",
+    "maps": [
+        {
+            "name": "Notes",
+            "id": "17ca96f9-f4f4-401c-a4e9-0ecb94f4fd6d",
+            "actions": [
+                {
+                    "name": "HitLine1",
+                    "type": "Button",
+                    "id": "fec26d89-11ae-4114-9f93-48b1f90d7927",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HitLine2",
+                    "type": "Button",
+                    "id": "83bdc74f-2fcd-4c66-9c33-6652664a22bb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HitLine3",
+                    "type": "Button",
+                    "id": "55866290-077f-4e66-bfab-0c32befbf181",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e31f0e69-e520-4fb3-9c88-15ac9803d582",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HitLine1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28f63c62-83e5-4909-ab9e-7eed0f249c24",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HitLine2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44b1859c-06bb-4b1a-9d58-5a39ba411a39",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HitLine3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

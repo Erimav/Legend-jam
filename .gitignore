@@ -48,3 +48,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 .savefile
+/Legend.sln
+/Assembly-CSharp.csproj
+/Assembly-CSharp-firstpass.csproj
+/.vsconfig

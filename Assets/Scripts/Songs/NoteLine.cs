@@ -55,10 +55,13 @@ public class NoteLine : MonoBehaviour
 
     public void OnInput(InputAction.CallbackContext ctx)
     {
-        var firstNoteInRange = notes.Where(n => Mathf.Abs(n.Position) <= timings.imperfectTimingThreshold).FirstOrDefault();
+        var firstNoteInRange = notes
+            .Where(n => !n.isHit && Mathf.Abs(n.Position) <= timings.imperfectTimingThreshold)
+            .FirstOrDefault();
         if (firstNoteInRange == null)
         {
             Hit?.Invoke(NoteHitResult.Miss);
+            PlaySound(NoteHitResult.Miss);
             return;
         }
 

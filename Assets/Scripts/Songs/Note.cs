@@ -9,6 +9,8 @@ public class Note : MonoBehaviour
 
     public float Position => _transform.localPosition.x;
 
+    public bool isHit;
+
     public event Action<NoteHitResult> Hit;
 
     void Start()
@@ -21,5 +23,9 @@ public class Note : MonoBehaviour
         _transform.position -= _transform.right * speed;
     }
 
-    public void OnHit(NoteHitResult result) => Hit?.Invoke(result);
+    public void OnHit(NoteHitResult result)
+    {
+        isHit = true;
+        Hit?.Invoke(result);
+    }
 }

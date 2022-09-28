@@ -12,6 +12,8 @@ public class SongController : MonoBehaviour
     public AudioSource musicSource;
 
     private NoteLine[] lines;
+
+    public event Action<NoteHitResult> Hit;
     
 
     void Start()
@@ -19,6 +21,8 @@ public class SongController : MonoBehaviour
         input = new SongInputs();
         NoteInputs = new[] { input.Notes.HitLine1, input.Notes.HitLine2, input.Notes.HitLine3 };
         lines = GetComponentsInChildren<NoteLine>();
+        foreach (var line in lines)
+            line.Hit += hit => Hit?.Invoke(hit);
     }
 
     public void StartSong(ISong song)

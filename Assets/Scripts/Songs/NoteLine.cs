@@ -40,7 +40,7 @@ public class NoteLine : MonoBehaviour
 
     public void CreateNote(float time)
     {
-        var note = Instantiate(noteInstance, transform.TransformPoint(Vector3.right * time), Quaternion.identity, transform);
+        var note = Instantiate(noteInstance, transform.TransformPoint(Vector3.right * time) + Vector3.back, Quaternion.identity, transform);
         notes.Add(note);
     }
 

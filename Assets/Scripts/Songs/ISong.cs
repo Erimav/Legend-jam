@@ -5,6 +5,7 @@ using UnityEngine;
 public interface ISong
 {
     AudioClip Track { get; }
+    AudioClip ForegroundTrack { get; }
 
     int NumberOfLines { get; }
 

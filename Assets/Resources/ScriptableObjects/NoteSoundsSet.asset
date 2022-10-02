@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f428c9cdea5c943b55ff1ffd4c040c, type: 3}
   m_Name: NoteSoundsSet
   m_EditorClassIdentifier: 
-  missSound: {fileID: 8300000, guid: 49cadc366cbb05d4984e1da2db5a8385, type: 3}
-  imperfectSound: {fileID: 8300000, guid: c7d5b9a1c532e5d4b943579d15df38bb, type: 3}
-  purrfectSound: {fileID: 8300000, guid: f2c4abc145db4cf42b5f58fb6ea2988a, type: 3}
+  missSound: {fileID: 8300000, guid: 810fe52d0bfaa924fb253dae4e3ccf97, type: 3}
+  imperfectSound: {fileID: 0}
+  purrfectSound: {fileID: 0}

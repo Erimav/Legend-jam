@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using DG.Tweening;
 using System;
 using System.Linq;
 using UnityEngine;
@@ -6,12 +7,18 @@ using UnityEngine.InputSystem;
 
 public class SongController : MonoBehaviour
 {
+    private NoteLine[] lines;
+    private bool foregroundMusicOn;
+
+    public float musicFadeDuration = .5f;
+
     public SongInputs input;
     public InputAction[] NoteInputs { get; private set; }
 
-    public AudioSource musicSource;
+    public AudioSource backgroundMusicSource;
+    public AudioSource foregroundMusicSource;
 
-    private NoteLine[] lines;
+
 
     public event Action<NoteHitResult> Hit;
     
@@ -22,13 +29,17 @@ public class SongController : MonoBehaviour
         NoteInputs = new[] { input.Notes.HitLine1, input.Notes.HitLine2, input.Notes.HitLine3 };
         lines = GetComponentsInChildren<NoteLine>();
         foreach (var line in lines)
-            line.Hit += hit => Hit?.Invoke(hit);
+            line.Hit += OnNoteHit;
     }
 
     public void StartSong(ISong song)
     {
-        musicSource.clip = song.Track;
-        musicSource.Play();
+        backgroundMusicSource.clip = song.Track;
+        foregroundMusicSource.clip = song.ForegroundTrack;
+        backgroundMusicSource.Play();
+        foregroundMusicSource.Play();
+        foregroundMusicSource.volume = 1;
+        foregroundMusicOn = true;
 
         var lines = this.lines.Take(song.NumberOfLines).ToArray();
         song.SpawnNotes(lines);
@@ -57,5 +68,20 @@ public class SongController : MonoBehaviour
         //await UniTask.Delay(TimeSpan.FromSeconds(song.Track.length));
         await UniTask.Delay(TimeSpan.FromSeconds(30));
         EndSong();
+    }
+
+    private void OnNoteHit(NoteHitResult hit)
+    {
+        Hit?.Invoke(hit);
+        var shouldPlayForeground = hit != NoteHitResult.Miss;
+        if (foregroundMusicOn != shouldPlayForeground)
+            TurnForeground(shouldPlayForeground);
+    }
+
+    private void TurnForeground(bool on)
+    {
+        foregroundMusicSource.DOKill();
+        foregroundMusicSource.DOFade(on ? 1 : 0, musicFadeDuration).Play();
+        foregroundMusicOn = on;
     }
 }

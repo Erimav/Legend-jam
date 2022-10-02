@@ -11,10 +11,13 @@ public class NoteBlink : MonoBehaviour
 
     private void Start()
     {
-        GetComponent<Note>().Hit += _ =>
+        GetComponent<Note>().Hit += res =>
         {
-            var text = GetComponentInChildren<TMP_Text>();
-            DOTween.To(() => text.color, c => text.color = c, Color.white, blinkTime).SetLoops(2, LoopType.Yoyo).Play();
+            if (res != NoteHitResult.Miss)
+            {
+                var text = GetComponentInChildren<TMP_Text>();
+                DOTween.To(() => text.color, c => text.color = c, Color.white, blinkTime).SetLoops(2, LoopType.Yoyo).Play();
+            }
         };
     }
 }

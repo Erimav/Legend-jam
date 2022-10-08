@@ -18,7 +18,7 @@ public class SongController : MonoBehaviour
     public AudioSource backgroundMusicSource;
     public AudioSource foregroundMusicSource;
 
-
+    public GameObject content;
 
     public event Action<NoteHitResult> Hit;
     
@@ -29,11 +29,19 @@ public class SongController : MonoBehaviour
         NoteInputs = new[] { input.Notes.HitLine1, input.Notes.HitLine2, input.Notes.HitLine3 };
         lines = GetComponentsInChildren<NoteLine>();
         foreach (var line in lines)
+        {
+            line.gameObject.SetActive(false);
             line.Hit += OnNoteHit;
+        }
+
+        if (content == null)
+            content = transform.Find("Content").gameObject;
     }
 
     public void StartSong(ISong song)
     {
+        content.SetActive(true);
+
         backgroundMusicSource.clip = song.Track;
         foregroundMusicSource.clip = song.ForegroundTrack;
         backgroundMusicSource.Play();
@@ -48,6 +56,7 @@ public class SongController : MonoBehaviour
         for (int i = 0; i < lines.Length; i++)
         {
             NoteLine line = lines[i];
+            line.gameObject.SetActive(true);
             line.SetInput(NoteInputs[i]);
             line.IsPlaying = true;
         }
@@ -58,6 +67,7 @@ public class SongController : MonoBehaviour
         foreach (var line in lines)
         {
             line.IsPlaying = false;
+            line.gameObject.SetActive(false);
         }
         input.Disable();
     }
@@ -65,8 +75,7 @@ public class SongController : MonoBehaviour
     public async UniTask PlaySongAsync(ISong song)
     {
         StartSong(song);
-        //await UniTask.Delay(TimeSpan.FromSeconds(song.Track.length));
-        await UniTask.Delay(TimeSpan.FromSeconds(30));
+        await UniTask.Delay(TimeSpan.FromSeconds(song.Track.length));
         EndSong();
     }
 

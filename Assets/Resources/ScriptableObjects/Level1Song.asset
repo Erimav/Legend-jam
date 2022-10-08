@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d20ab7a2876814cbe94f63251f743e, type: 3}
+  m_Name: Level1Song
+  m_EditorClassIdentifier: 
+  <Track>k__BackingField: {fileID: 8300000, guid: b2672d66cdef069438b71ab71af21d36, type: 3}
+  <ForegroundTrack>k__BackingField: {fileID: 8300000, guid: f659f9751de19aa48aa5a5d3b02acd1d, type: 3}
+  <NumberOfLines>k__BackingField: 2
+  minSpawnRate: 0.6
+  maxSpawnRate: 0.8
+  startTime: 2
+  multipleLinesExponentiation: 4

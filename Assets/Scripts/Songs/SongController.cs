@@ -21,7 +21,7 @@ public class SongController : MonoBehaviour
     public GameObject content;
 
     public event Action<NoteHitResult> Hit;
-    
+    public event Action SongFinished;
 
     void Start()
     {
@@ -66,10 +66,15 @@ public class SongController : MonoBehaviour
     {
         foreach (var line in lines)
         {
-            line.IsPlaying = false;
-            line.gameObject.SetActive(false);
+            if (line.IsPlaying)
+            {
+                line.IsPlaying = false;
+                line.gameObject.SetActive(false);
+            }
         }
+
         input.Disable();
+        SongFinished?.Invoke();
     }
 
     public async UniTask PlaySongAsync(ISong song)

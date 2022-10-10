@@ -34,7 +34,7 @@ public class EnableDisableSprites : MonoBehaviour
                     AllSpriteManagers[i].FadeOut();
                 }
             }
-            Destroy(gameObject);
+            Destroy(this);
         }
     }
 }

@@ -15,6 +15,7 @@ public class MenuScript : MonoBehaviour
 
     public void Play()
     {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainGameScene");
         //fader.FadeTo(LevelToLoad);
     }
 

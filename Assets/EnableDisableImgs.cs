@@ -34,7 +34,7 @@ public class EnableDisableImgs : MonoBehaviour
                     AllSpriteManagers[i].FadeOut();
                 }
             }
-            Destroy(gameObject);
+            Destroy(this);
         }
     }
 }

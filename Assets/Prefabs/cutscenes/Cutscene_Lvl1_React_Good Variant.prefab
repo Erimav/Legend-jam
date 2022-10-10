@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9220082469056770464
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8097404583220868907, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: SpeechStrings.Array.data[0]
+      value: Hm... Hm... Hm... Hm...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583220868907, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: SpeechStrings.Array.data[1]
+      value: "Lad\u2026 That\u2026 That was\u2026  Beautiful!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583220868907, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: SpeechStrings.Array.data[2]
+      value: The tune was like an angels singing, and you play like a master!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583220868907, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: SpeechStrings.Array.data[3]
+      value: "Oh my! Thank you so much Sir! I\u2019ve been practising loads!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583220868907, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: SpeechStrings.Array.data[4]
+      value: "That was beautiful\u2026 I feel like I might shed a tear or two\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583220868907, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: SpeechStrings.Array.data[5]
+      value: "Oh, Mr Innkeeper! Don\u2019t cry!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813142, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813143, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_Name
+      value: Cutscene_Lvl1_React_Good
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097404583536813143, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03acfc0daf45b2f4cbf3874da7cd2e5d, type: 3}

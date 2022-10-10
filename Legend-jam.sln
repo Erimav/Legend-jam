@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< Updated upstream
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
+=======
+# Visual Studio 15
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{13F0B0FD-21C9-D0D2-5AD1-1D174C9681E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Core.Runtime.csproj", "{4846B349-2AD5-CA9F-617B-5C8EE25F5211}"
@@ -199,7 +203,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipeline.Univer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Environments", "Unity.Services.Core.Environments.Player.csproj", "{50DE7831-DD7E-A798-4E20-EA534E92CF9F}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp.Player", "Assembly-CSharp.Player.csproj", "{615BCEE5-57DC-85CD-5C40-ACD676A9E32C}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{615BCEE5-57DC-85CD-5C40-ACD676A9E32C}"
+>>>>>>> Stashed changes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.SpriteShape.Runtime", "Unity.2D.SpriteShape.Runtime.Player.csproj", "{38F0B312-5174-F930-F56A-BB2B80CEB9CE}"
 EndProject
@@ -751,7 +759,10 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< Updated upstream
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {060A60C8-E686-4F7F-AB43-DA86F6E3C78D}
 	EndGlobalSection
+=======
+>>>>>>> Stashed changes
 EndGlobal

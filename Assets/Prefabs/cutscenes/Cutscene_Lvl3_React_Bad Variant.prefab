@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7588730865682791336
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969880, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918080969881, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: m_Name
+      value: Cutscene_Lvl3_React_Bad
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: CharacterID.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: CharacterID.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: CharacterID.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: CharacterID.Array.data[4]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: SpeechStrings.Array.data[1]
+      value: "Oh no, no, no. Mistaken I must have been, thou playing was\u2026 horrendous,
+        I am sorry."
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: SpeechStrings.Array.data[2]
+      value: "Thou tune art shameful, and thy playing\u2026 Awful."
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: SpeechStrings.Array.data[3]
+      value: "Oh no. I\u2019m so sorry! I can do better, I swear."
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: SpeechStrings.Array.data[4]
+      value: I am sorry my boy, but thou should choose a different profession! Thou
+        trumpet playing offends mine ears.
+      objectReference: {fileID: 0}
+    - target: {fileID: 595546918401109989, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}
+      propertyPath: SpeechStrings.Array.data[5]
+      value: "Oh no\u2026"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74a4b9ab6721f0b4186d83ceaecf74a4, type: 3}

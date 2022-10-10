@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6292510908000615553
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 441864782249096996, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_Name
+      value: Cutscene_Lvl3_Intro Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096996, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[3]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[5]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[7]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[8]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[11]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[13]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[14]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[0]
+      value: 'That was incredible! I got to perform twice and to the undead! Finally,
+        I can tick that off my bucket list. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[1]
+      value: "Well done lad, well done. I didn\u2019 doubt ya for a second. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[2]
+      value: 'Oh, thank you! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[3]
+      value: 'What magical tonnes dost mine ears percieveth? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[4]
+      value: "What\u2019s dat fancy talk, eh? If ya want another pint den, just say
+        \u201Cmilk me\u201D."
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[5]
+      value: 'Oh no kind patron, I am amply hydrated, sir. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[6]
+      value: Ah! Mr Mayor! What brings ye to me humble establishment?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[7]
+      value: "Well\u2026 Mine chariot was passing by and thou building play\u2019eth
+        such melodic tonnes."
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[8]
+      value: 'I humbly request to hear them once more. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[9]
+      value: "Oh\u2026 Ye-yes m\u2019lord of course!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[10]
+      value: "LAD! Watch\u2019a waiting for, play again!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[11]
+      value: "Ah! Again? But I\u2019m tired\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[12]
+      value: "Do it lad! Don\u2019tcha know who dis guy is!? He\u2019s da big Mayor!
+        Don\u2019t disappoint him, not in my place of business, are you mad?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[13]
+      value: "Ah\u2026 Ok\u2026 Here we go\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[14]
+      value: Lovely! Splendid!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}

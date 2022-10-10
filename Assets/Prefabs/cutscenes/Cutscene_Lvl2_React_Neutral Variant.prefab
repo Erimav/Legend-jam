@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2282333819977802978
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1724795369289894663, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: SpeechStrings.Array.data[1]
+      value: "Ahh\u2026 How comforting\u2026 I feel relaxed and ready for my evening
+        snooze. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369289894663, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: SpeechStrings.Array.data[2]
+      value: 'The tune was mellow, and your playing comforted these old bones. Though,
+        I sense you are capable of more. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369289894663, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: SpeechStrings.Array.data[3]
+      value: Phew! Thank you, Madam! I tried my hardest, but I think with more practice
+        I will play something better next time.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369289894663, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: SpeechStrings.Array.data[4]
+      value: "Ohhh\u2026 But my weary bones cannot last until then, I must return
+        to my cat slumber. For now\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369289894663, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: SpeechStrings.Array.data[5]
+      value: Goodnight Miss Skeleton!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644474, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724795369644644475, guid: aa8f204855f57564ba967d816765709d, type: 3}
+      propertyPath: m_Name
+      value: Cutscene_Lvl2_React_Neutral
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa8f204855f57564ba967d816765709d, type: 3}

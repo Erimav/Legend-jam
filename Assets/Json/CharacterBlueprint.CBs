@@ -1,0 +1,30 @@
+{
+	"CharacterBlueprints":
+	[
+		{
+			"Name" : "Mr Whiskers",
+			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait protagonist 01.dds",
+			"Speech_Pitch" : 1.5
+		},
+		{
+			"Name" : "Humphrey, the Innkeeper",
+			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait critic 01.dds",
+			"Speech_Pitch" : 1
+		},
+		{
+			"Name" : "Melania, Mistress of Bones",
+			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait critic 02.dds",
+			"Speech_Pitch" : 0.2
+		},
+		{
+			"Name" : "Mayor Leo Regal Esquire",
+			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait critic 03.dds",
+			"Speech_Pitch" : 0.65
+		},
+		{
+			"Name" : "???",
+			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait critic 03 hidden.dds",
+			"Speech_Pitch" : 0.8
+		}
+	]
+}

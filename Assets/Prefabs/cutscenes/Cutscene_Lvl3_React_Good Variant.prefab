@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &993341906525111618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6794568073575339962, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_Name
+      value: Cutscene_Lvl3_React_Good
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073575339963, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073891284166, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: SpeechStrings.Array.data[1]
+      value: Oh! Oh my! Oh my, oh my. Oh my, indeed! What beauty, what majesty!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073891284166, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: SpeechStrings.Array.data[2]
+      value: Thou tune blesses mine ears like the touch of a kind maiden, and thou
+        playeth as the master bard!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073891284166, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: SpeechStrings.Array.data[3]
+      value: "Oh my! Thank you so much Sir! I\u2019ve been practising loads!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073891284166, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: SpeechStrings.Array.data[4]
+      value: 'Indeed! I shall of course wish to hear thou beautiful music again,
+        and again! I will return many a time to this pleasant establishment! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794568073891284166, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}
+      propertyPath: SpeechStrings.Array.data[5]
+      value: Oh, wow! Thank you so much Mr Mayor!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: de0475efb09d8674e82136e07ac9ee3f, type: 3}

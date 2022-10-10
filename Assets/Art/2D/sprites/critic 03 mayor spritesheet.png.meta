@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: 3d6efd7f024a887428c3e64fdf065b2e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 216
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9712ab83c20a8b946b4488e469545eae
+      internalID: 463487985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 217
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77275278e60296b42a11bbee2f08d64e
+      internalID: -1951111211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 216
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a28cc2affeb1942a27918ab3dde67a
+      internalID: -1342259052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 217
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4733d4662153aa04fad2c31bf5285f5d
+      internalID: -487817406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 163
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494854c0271281943b0734b0a87d02f3
+      internalID: 1628752227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 164
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfc6f28b6b812b4fa8f39e63be13963
+      internalID: -12341301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 163
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789eb66ce2e7a3645aba122015a1315e
+      internalID: 1188891797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 164
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185bf322dbfdd694093dfb23a8fab57e
+      internalID: -645434774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 111
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0861a18350205b04480c4183adef85b3
+      internalID: 2110407515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 111
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3673247cf14c84183f32834d5b4c82
+      internalID: -1729977150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 110
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a905b6dd0aaf65a4098f60948e13a4c6
+      internalID: 926598778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 111
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c8044f2b9fa741b71605b7867a209
+      internalID: -1782924163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 58
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5663521240a0e74a980662fbe8a7cfb
+      internalID: -1865654416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 58
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722de7d818e2c954bb3f19f87f5a9eb7
+      internalID: 1091969026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 58
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abe487624d362c4cb85c43c2677b16e
+      internalID: 1458549607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 58
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3741c25af14be40afbb4f8e745a5e9
+      internalID: -699349994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a269522cae8950f4d9e51871e5f974ff
+      internalID: 740148463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: critic 03 mayor spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 5
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cfe0fccf1869643a98b92631478728
+      internalID: 1927828813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      critic 03 mayor spritesheet_14: 1458549607
+      critic 03 mayor spritesheet_15: -699349994
+      critic 03 mayor spritesheet_3: -487817406
+      critic 03 mayor spritesheet_1: -1951111211
+      critic 03 mayor spritesheet_2: -1342259052
+      critic 03 mayor spritesheet_12: -1865654416
+      critic 03 mayor spritesheet_8: 2110407515
+      critic 03 mayor spritesheet_4: 1628752227
+      critic 03 mayor spritesheet_11: -1782924163
+      critic 03 mayor spritesheet_0: 463487985
+      critic 03 mayor spritesheet_6: 1188891797
+      critic 03 mayor spritesheet_7: -645434774
+      critic 03 mayor spritesheet_9: -1729977150
+      critic 03 mayor spritesheet_5: -12341301
+      critic 03 mayor spritesheet_13: 1091969026
+      critic 03 mayor spritesheet_10: 926598778
+      critic 03 mayor spritesheet_16: 740148463
+      critic 03 mayor spritesheet_17: 1927828813
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

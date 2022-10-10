@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &759797264505760475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 441864782249096996, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_Name
+      value: Cutscene_Lvl1_Intro Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096996, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782249096997, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[8]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: CharacterID.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[0]
+      value: "Wow! I can\u2019t believe I convinced Humphrey to let me play in his
+        Inn."
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[1]
+      value: "Looks like quite a crowd is gathering. I\u2019m so nervous! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[2]
+      value: Oy! Lad!
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[3]
+      value: 'Eeek! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[4]
+      value: "What ya doing just standing there all nice like? The patrons have got
+        their pints of milk and they\u2019s waiting for a show."
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[5]
+      value: "Oh! Yes sir, I\u2019m ready!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[6]
+      value: LAD!
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[7]
+      value: "Don\u2019t\u2019cha forget. I\u2019m expecting a world class performance
+        from you, don\u2019t embarrass me for letting you toot yer horn in front
+        of me paying customers. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[8]
+      value: "Meow! I-I\u2019ll try my best!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[9]
+      value: "Hmph. Your best, eh? Well, I\u2019ll be watching n listening\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 441864782599775320, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}
+      propertyPath: SpeechStrings.Array.data[10]
+      value: NOW GET TO IT LADDY!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3eb8988759ee1d0429a35df6aaa0560b, type: 3}

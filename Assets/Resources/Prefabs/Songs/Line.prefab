@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 1696834864039496701}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.9392, y: 0, z: 0}
-  m_LocalScale: {x: 13.549145, y: 0.06065194, z: 1}
+  m_LocalScale: {x: 1.35, y: 0.25065193, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4596319005540312827}
@@ -104,7 +104,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: f0db1ab74d5faa044955d94cbc8ac330, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6bcf2d170be215b42a3bdbb6b78378b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -168,6 +168,7 @@ MonoBehaviour:
   noteSounds: {fileID: 11400000, guid: 1924b6e7d0f67c14eaa6c5fd33d07627, type: 2}
   noteAudioSource: {fileID: 7912869246401001304}
   speed: 0
+  playMissSoundOnIgnoreNote: 0
 --- !u!82 &7912869246401001304
 AudioSource:
   m_ObjectHideFlags: 0

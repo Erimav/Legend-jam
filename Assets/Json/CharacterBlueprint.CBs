@@ -9,7 +9,7 @@
 		{
 			"Name" : "Humphrey, the Innkeeper",
 			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait critic 01.dds",
-			"Speech_Pitch" : 1
+			"Speech_Pitch" : 0.9
 		},
 		{
 			"Name" : "Melania, Mistress of Bones",
@@ -23,8 +23,8 @@
 		},
 		{
 			"Name" : "???",
-			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait critic 03 hidden.dds",
-			"Speech_Pitch" : 0.8
+			"Path_Sprite" : "Assets/Art/2D/portraits/dds/portrait critic 03.dds",
+			"Speech_Pitch" : 0.65
 		}
 	]
 }

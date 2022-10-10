@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnableDisableSprites : MonoBehaviour
+public class EnableDisableImgs : MonoBehaviour
 {
-    [SerializeField] private FadeSprites[] AllSpriteManagers;
+    [SerializeField] private FadeImg[] AllSpriteManagers;
     [SerializeField] private bool[] State;
     private bool HasActivated = false;
     // Start is called before the first frame update
@@ -34,7 +34,7 @@ public class EnableDisableSprites : MonoBehaviour
                     AllSpriteManagers[i].FadeOut();
                 }
             }
-            Destroy(gameObject);
+            Destroy(this);
         }
     }
 }

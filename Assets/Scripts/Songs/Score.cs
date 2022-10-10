@@ -13,11 +13,18 @@ public class Score : MonoBehaviour
     public int scoreForImperfect;
     public int scoreForMiss;
 
+    public float neutralScoreLimit = 0.5f;
+    public float purrfectScoreLimit = 0.75f;
+
     public int score;
+    public int maxPossibleScore;
+
+    public float ScorePercentage => (float)score / maxPossibleScore;
 
     private void Start()
     {
         songController.Hit += AddScore;
+        songController.SongFinished += OnSongEnded;
     }
 
     private void AddScore(NoteHitResult hit)
@@ -30,6 +37,18 @@ public class Score : MonoBehaviour
             _ => throw new NotImplementedException(),
         };
 
-        display.text = $"Score: {score}";
+        maxPossibleScore += scoreForPurrfect;
+
+        if (display != null)
+            display.text = $"Score: {score}";
+    }
+
+    private void OnSongEnded()
+    {
+        var ending = ScorePercentage >= purrfectScoreLimit
+            ? 0
+            : ScorePercentage >= neutralScoreLimit ? 1 : 2;
+
+        FindObjectOfType<LevelCutsceneInteraction>()?.CompleteALevel(ending);
     }
 }

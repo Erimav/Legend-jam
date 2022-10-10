@@ -8,6 +8,9 @@ public class GameObjectSong : MonoBehaviour, ISong
     [field: SerializeField]
     public AudioClip Track { get; set; }
 
+    [field:SerializeField]
+    public AudioClip ForegroundTrack { get; set; }
+
     public NoteSoundsSetSO[] noteSounds;
 
     public int NumberOfLines => transform.childCount;

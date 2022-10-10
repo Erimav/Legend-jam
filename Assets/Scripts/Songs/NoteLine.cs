@@ -18,6 +18,7 @@ public class NoteLine : MonoBehaviour
     public AudioSource noteAudioSource;
 
     public float speed;
+    public bool playMissSoundOnIgnoreNote;
 
     public bool IsPlaying
     {
@@ -40,7 +41,7 @@ public class NoteLine : MonoBehaviour
 
     public void CreateNote(float time)
     {
-        var note = Instantiate(noteInstance, transform.TransformPoint(Vector3.right * time) + Vector3.back, Quaternion.identity, transform);
+        var note = Instantiate(noteInstance, transform.TransformPoint(speed * time * Vector3.right) + Vector3.back, Quaternion.identity, transform);
         notes.Add(note);
     }
 
@@ -68,10 +69,15 @@ public class NoteLine : MonoBehaviour
         var result = Mathf.Abs(firstNoteInRange.Position) <= timings.purrfectTimingThreshold
             ? NoteHitResult.Purrfect
             : NoteHitResult.Imperfect;
+        HitNote(firstNoteInRange, result);
+    }
 
+    private void HitNote(Note note, NoteHitResult result)
+    {
         Hit?.Invoke(result);
-        firstNoteInRange.OnHit(result);
-        PlaySound(result);
+        note.OnHit(result);
+        if (result != NoteHitResult.Miss || playMissSoundOnIgnoreNote)
+            PlaySound(result);
     }
 
     private void PlaySound(NoteHitResult result)
@@ -88,6 +94,8 @@ public class NoteLine : MonoBehaviour
         for (int i = 0; i < notes.Count; i++)
         {
             notes[i].Move(speed * Time.deltaTime);
+            if (!notes[i].isHit && notes[i].Position < -timings.imperfectTimingThreshold)
+                HitNote(notes[i], NoteHitResult.Miss);
         }
     }
 

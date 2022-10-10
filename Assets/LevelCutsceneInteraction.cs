@@ -44,9 +44,9 @@ public class LevelCutsceneInteraction : MonoBehaviour
         }
 
         //Dev
-        if(Input.GetKeyUp(KeyCode.K))
-        {
-            CompleteALevel(Random.Range(0, 3));
-        }
+        //if(Input.GetKeyUp(KeyCode.K))
+        //{
+        //    CompleteALevel(Random.Range(0, 3));
+        //}
     }
 }

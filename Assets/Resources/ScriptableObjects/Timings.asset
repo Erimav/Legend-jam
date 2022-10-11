@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50d4173d56ec04c469bc1fae9afa2ba3, type: 3}
   m_Name: Timings
   m_EditorClassIdentifier: 
-  purrfectTimingThreshold: 0.2
-  imperfectTimingThreshold: 0.4
+  purrfectTimingThreshold: 0.3
+  imperfectTimingThreshold: 0.5

@@ -14,7 +14,7 @@ public class Score : MonoBehaviour
     public int scoreForMiss;
 
     public float neutralScoreLimit = 0.5f;
-    public float purrfectScoreLimit = 0.7f;
+    public float purrfectScoreLimit = 0.75f;
 
     public int score;
     public int maxPossibleScore;

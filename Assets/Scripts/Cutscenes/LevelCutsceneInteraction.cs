@@ -54,7 +54,7 @@ public class LevelCutsceneInteraction : MonoBehaviour
                 //EndGame
                 CatAC.ActionType = 1;
                 EndFadeToBlack.FadeIn();
-                Invoke(nameof(EndGame), 4);
+                Invoke(nameof(EndGame), 7);
             }
             else
             {

@@ -47,7 +47,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7547160300742235666}
   - component: {fileID: 7547160300742235667}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,6 +433,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7547160300638141335}
     m_Modifications:
+    - target: {fileID: 1696834864039496701, guid: 3d856af3b2558df41a11ca0af72782c3, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3063650681358353580, guid: 3d856af3b2558df41a11ca0af72782c3, type: 3}
       propertyPath: m_Name
       value: Line1
@@ -519,6 +523,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7547160300638141335}
     m_Modifications:
+    - target: {fileID: 1696834864039496701, guid: 3d856af3b2558df41a11ca0af72782c3, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3063650681358353580, guid: 3d856af3b2558df41a11ca0af72782c3, type: 3}
       propertyPath: m_Name
       value: Line2
@@ -605,6 +613,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7547160300638141335}
     m_Modifications:
+    - target: {fileID: 1696834864039496701, guid: 3d856af3b2558df41a11ca0af72782c3, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3063650681358353580, guid: 3d856af3b2558df41a11ca0af72782c3, type: 3}
       propertyPath: m_Name
       value: Line3

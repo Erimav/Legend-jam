@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LevelCutsceneInteraction : MonoBehaviour
 {
+    [SerializeReference] public RandomSong[] AllISongs;
+    [SerializeField] private SongController SC;
     [SerializeField] private CutscenePlayer CutsceneP;
     [SerializeField] private GameObject[] ChangeStateOnLvl1;
     [SerializeField] private GameObject[] ChangeStateOnLvl2;
@@ -11,10 +13,11 @@ public class LevelCutsceneInteraction : MonoBehaviour
     private GameObject[][] AllChangeState;
     private int CurrentLevel = 0;
     private bool SearchingForIntro = false;
+    private bool DoingIntro;
 
     private void Start()
     {
-        AllChangeState = new GameObject[3][] { ChangeStateOnLvl1, ChangeStateOnLvl2, ChangeStateOnLvl3 };    
+        AllChangeState = new GameObject[3][] { ChangeStateOnLvl1, ChangeStateOnLvl2, ChangeStateOnLvl3 };   
         DoIntroCutscene();
     }
 
@@ -22,11 +25,11 @@ public class LevelCutsceneInteraction : MonoBehaviour
     {
         for(int i = 0; i < AllChangeState[CurrentLevel].Length; i++)
         {
-            print(AllChangeState[CurrentLevel][i].name);
             AllChangeState[CurrentLevel][i].SetActive(!AllChangeState[CurrentLevel][i].activeSelf);
         }
         CutsceneP.PlayCutscene(CurrentLevel);
         SearchingForIntro = false;
+        DoingIntro = true;
     }
 
     public void CompleteALevel(int ReactionQuality)
@@ -43,10 +46,10 @@ public class LevelCutsceneInteraction : MonoBehaviour
             DoIntroCutscene();
         }
 
-        //Dev
-        //if(Input.GetKeyUp(KeyCode.K))
-        //{
-        //    CompleteALevel(Random.Range(0, 3));
-        //}
+        if (DoingIntro && !CutsceneP.IsPlaying)
+        {
+            DoingIntro = false;
+            SC.StartSong(AllISongs[CurrentLevel]);
+        }
     }
 }

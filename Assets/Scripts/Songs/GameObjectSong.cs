@@ -35,10 +35,10 @@ public class GameObjectSong : MonoBehaviour, ISong
         }
     }
 
-    [ContextMenu("Start")]
+    /*[ContextMenu("Start")]
     public void StartSong()
     {
         var songController = FindObjectOfType<SongController>();
         songController.PlaySongAsync(this).Forget();
-    }
+    }*/
 }

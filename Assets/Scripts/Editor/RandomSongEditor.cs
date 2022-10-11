@@ -7,6 +7,7 @@ using UnityEngine;
 [CustomEditor(typeof(RandomSong))]
 public class RandomSongEditor : Editor
 {
+    /*
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
@@ -14,5 +15,6 @@ public class RandomSongEditor : Editor
         {
             FindObjectOfType<SongController>().PlaySongAsync((ISong)target).Forget();
         }
-    }
+    }*/
+
 }

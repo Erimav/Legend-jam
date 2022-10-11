@@ -38,7 +38,7 @@ public class SongController : MonoBehaviour
             content = transform.Find("Content").gameObject;
     }
 
-    public void StartSong(ISong song)
+    private void StartSong(ISong song)
     {
         content.SetActive(true);
 
@@ -62,7 +62,7 @@ public class SongController : MonoBehaviour
         }
     }
 
-    public void EndSong()
+    private void EndSong()
     {
         foreach (var line in lines)
         {

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.InputSystem;
+using Cysharp.Threading.Tasks;
 
 public class SpeechBubbleCutscene : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class SpeechBubbleCutscene : MonoBehaviour
     private int CurrentPos = 0;
     public bool IsTyping;
     public bool SpeechIsComplete;
+
+    private readonly Keyboard keyboard = Keyboard.current;
 
     public void Setup()
     {
@@ -33,7 +37,6 @@ public class SpeechBubbleCutscene : MonoBehaviour
             CurrentCharacter = CharacterStorage.GetCharacter(CharacterID[CurrentPos]);
             CharacterSpeechImg.sprite = CurrentCharacter.selfSprite;
 
-            IsTyping = true;
             CharacterNameText.text = CurrentCharacter.Name;
             CharacterSpeechText.text = "";
 
@@ -50,6 +53,7 @@ public class SpeechBubbleCutscene : MonoBehaviour
 
     private void StartTyping()
     {
+        IsTyping = true;
         StartCoroutine(nameof(Type), 0.05f);
     }
 
@@ -75,9 +79,32 @@ public class SpeechBubbleCutscene : MonoBehaviour
         }
 
         //Prepare for next loop
-        CurrentPos++;
-        Invoke(nameof(DoNextSpeech), 2f);
+        FinallizeSpeech();
+    }
+
+    private void FinallizeSpeech()
+    {
+        CharacterSpeechText.text = SpeechStrings[CurrentPos++];
+        WaitForInputThenDoNextSpeech().Forget();
         IsTyping = false;
         AS.Pause();
+    }
+
+    private async UniTaskVoid WaitForInputThenDoNextSpeech()
+    {
+        do
+            await UniTask.Yield();
+        while (!keyboard.anyKey.wasPressedThisFrame);
+
+        DoNextSpeech();
+    }
+
+    private void Update()
+    {
+        if (IsTyping && keyboard.anyKey.wasPressedThisFrame)
+        {
+            StopCoroutine(nameof(Type));
+            FinallizeSpeech();
+        }
     }
 }

@@ -38,7 +38,7 @@ public class AnimationController : MonoBehaviour
     private void SetSprite(Sprite[] CurrentSpriteSheet)
     {
         CurrentFrame++;
-        if(CurrentFrame == CurrentSpriteSheet.Length)
+        if(CurrentFrame >= CurrentSpriteSheet.Length)
         {
             CurrentFrame = 0;
         }

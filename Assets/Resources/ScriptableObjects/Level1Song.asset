@@ -15,7 +15,7 @@ MonoBehaviour:
   <Track>k__BackingField: {fileID: 8300000, guid: b2672d66cdef069438b71ab71af21d36, type: 3}
   <ForegroundTrack>k__BackingField: {fileID: 8300000, guid: f659f9751de19aa48aa5a5d3b02acd1d, type: 3}
   <NumberOfLines>k__BackingField: 2
-  minSpawnRate: 0.6
-  maxSpawnRate: 0.8
-  startTime: 2
+  minSpawnRate: 0.7
+  maxSpawnRate: 0.9
+  startTime: 4
   multipleLinesExponentiation: 4

@@ -36,4 +36,9 @@ public class RandomSong : ScriptableObject, ISong
             }
         }
     }
+
+    public void Start()
+    {
+        FindObjectOfType<SongController>().PlaySongAsync(this).Forget();
+    }
 }

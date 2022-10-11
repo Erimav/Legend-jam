@@ -5,6 +5,9 @@ using UnityEngine;
 public class LevelCutsceneInteraction : MonoBehaviour
 {
     [SerializeReference] public RandomSong[] AllISongs;
+    [SerializeField] private FadeImg EndFadeToBlack;
+    [SerializeField] private AnimationController CatAC;
+    [SerializeField] private AnimationController[] AllJudgesAC;
     [SerializeField] private SongController SC;
     [SerializeField] private CutscenePlayer CutsceneP;
     [SerializeField] private GameObject[] ChangeStateOnLvl1;
@@ -28,14 +31,17 @@ public class LevelCutsceneInteraction : MonoBehaviour
             AllChangeState[CurrentLevel][i].SetActive(!AllChangeState[CurrentLevel][i].activeSelf);
         }
         CutsceneP.PlayCutscene(CurrentLevel);
+        CatAC.ActionType = 2;
         SearchingForIntro = false;
         DoingIntro = true;
     }
 
     public void CompleteALevel(int ReactionQuality)
     {
+        foreach(AnimationController AC in AllJudgesAC) { AC.ActionType = 2; }
         CutsceneP.PlayReactionCutscene(CurrentLevel, ReactionQuality);
-        CurrentLevel++; 
+        CatAC.ActionType = 2;
+        CurrentLevel++;
         SearchingForIntro = true;
     }
 
@@ -43,13 +49,30 @@ public class LevelCutsceneInteraction : MonoBehaviour
     {
         if(SearchingForIntro && !CutsceneP.IsPlaying)
         {
-            DoIntroCutscene();
+            if (CurrentLevel > 2)
+            {
+                //EndGame
+                CatAC.ActionType = 1;
+                EndFadeToBlack.FadeIn();
+                Invoke(nameof(EndGame), 4);
+            }
+            else
+            {
+                DoIntroCutscene();
+            }
         }
 
         if (DoingIntro && !CutsceneP.IsPlaying)
         {
             DoingIntro = false;
-            SC.StartSong(AllISongs[CurrentLevel]);
+            SC.PlaySongAsync(AllISongs[CurrentLevel]);
+            foreach (AnimationController AC in AllJudgesAC) { AC.ActionType = 0; }
+            CatAC.ActionType = 0;
         }
+    }
+
+    private void EndGame()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 }

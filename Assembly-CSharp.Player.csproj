@@ -82,6 +82,8 @@
     <Compile Include="Assets\Scripts\Cutscenes\EnableDisableSprites.cs" />
     <Compile Include="Assets\Scripts\Cutscenes\LevelCutsceneInteraction.cs" />
     <Compile Include="Assets\Scripts\Cutscenes\EnableDisableImgs.cs" />
+    <Compile Include="Assets\Scripts\Songs\Misc\NoteImageBlink.cs" />
+    <Compile Include="Assets\Scripts\Songs\Misc\NoteParticle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

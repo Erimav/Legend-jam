@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1693300348435978501}
   - component: {fileID: 5817051013583358367}
   - component: {fileID: 6312191577727200064}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: W 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2268587224531589741}
   - component: {fileID: 6282884658785077994}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 7276897995767056498}
   - component: {fileID: 7008286274474098183}
   - component: {fileID: 3736573439848728238}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,6 +401,10 @@ PrefabInstance:
     - target: {fileID: 6555766356948619135, guid: c28e6a09851b7e9428478b88a2004359, type: 3}
       propertyPath: m_Name
       value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555766356948619135, guid: c28e6a09851b7e9428478b88a2004359, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c28e6a09851b7e9428478b88a2004359, type: 3}

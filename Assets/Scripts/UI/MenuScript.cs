@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    public GameObject MenuUI;
-    public GameObject CreditsUI;
-    public SceneFader fader;
-    public Image img;
-    public AnimationCurve curve;
+    [SerializeField] private GameObject MenuUI;
+    [SerializeField] private GameObject CreditsUI;
+    [SerializeField] private SceneFader fader;
+    [SerializeField] private Image img;
+    [SerializeField] private AnimationCurve curve;
     [SerializeField] private GameObject CreditsBackButton;
     [SerializeField] private GameObject SettingsBackButton;
 
@@ -31,19 +31,6 @@ public class MenuScript : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
     }
-    
-    /*private IEnumerator FadeOut()
-    {
-        float t = 0f;
-
-        while (t < 1f)
-        {
-            t += Time.deltaTime;
-            float a = curve.Evaluate(t);
-            img.color = new Color(0f, 0f, 0f, a);
-            yield return 0;
-        }
-    }*/
 
     public void CreditsBack()
     {
